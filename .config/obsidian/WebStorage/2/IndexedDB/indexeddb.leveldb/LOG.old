@@ -1,0 +1,15 @@
+2025/02/08-14:39:27.348 285d2 Reusing MANIFEST /home/aaronz/.config/obsidian/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/02/08-14:39:27.348 285d2 Recovering log #4
+2025/02/08-14:39:27.348 285d2 Reusing old log /home/aaronz/.config/obsidian/WebStorage/2/IndexedDB/indexeddb.leveldb/000004.log 
+2025/02/08-14:39:34.137 28556 Level-0 table #8: started
+2025/02/08-14:39:34.140 28556 Level-0 table #8: 12482 bytes OK
+2025/02/08-14:39:34.142 28556 Delete type=0 #4
+2025/02/08-14:39:34.142 28556 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/02/08-14:39:34.142 28556 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 224 : 1
+2025/02/08-14:39:34.143 28556 Compacting 1@1 + 1@2 files
+2025/02/08-14:39:34.145 28556 Generated table #9@1: 58 keys, 1339 bytes
+2025/02/08-14:39:34.145 28556 Compacted 1@1 + 1@2 files => 1339 bytes
+2025/02/08-14:39:34.146 28556 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/08-14:39:34.147 28556 Delete type=2 #5
+2025/02/08-14:39:34.147 28556 Delete type=2 #8
+2025/02/08-14:39:34.147 28556 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 224 : 1 .. (end); will stop at (end)

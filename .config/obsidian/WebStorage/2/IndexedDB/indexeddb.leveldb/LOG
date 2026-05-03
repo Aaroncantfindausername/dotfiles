@@ -1,0 +1,15 @@
+2025/03/30-17:25:57.670 23f20 Reusing MANIFEST /home/aaronz/.config/obsidian/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/03/30-17:25:57.670 23f20 Recovering log #7
+2025/03/30-17:25:57.671 23f20 Reusing old log /home/aaronz/.config/obsidian/WebStorage/2/IndexedDB/indexeddb.leveldb/000007.log 
+2025/03/30-17:26:00.837 23f21 Level-0 table #12: started
+2025/03/30-17:26:00.839 23f21 Level-0 table #12: 534 bytes OK
+2025/03/30-17:26:00.841 23f21 Delete type=0 #7
+2025/03/30-17:26:00.841 23f21 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/30-17:26:00.841 23f21 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x01\x01\x16\x00y\x00t\x00-\x00i\x00d\x00b\x00-\x00t\x00e\x00s\x00t\x00-\x00d\x00o\x00-\x00n\x00o\x00t\x00-\x00u\x00s\x00e' @ 333 : 1
+2025/03/30-17:26:00.841 23f21 Compacting 1@1 + 1@2 files
+2025/03/30-17:26:00.842 23f21 Generated table #13@1: 58 keys, 1339 bytes
+2025/03/30-17:26:00.843 23f21 Compacted 1@1 + 1@2 files => 1339 bytes
+2025/03/30-17:26:00.844 23f21 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/30-17:26:00.844 23f21 Delete type=2 #9
+2025/03/30-17:26:00.844 23f21 Delete type=2 #12
+2025/03/30-17:26:00.844 23f21 Manual compaction at level-1 from '\x00\x01\x01\x01\x01\x16\x00y\x00t\x00-\x00i\x00d\x00b\x00-\x00t\x00e\x00s\x00t\x00-\x00d\x00o\x00-\x00n\x00o\x00t\x00-\x00u\x00s\x00e' @ 333 : 1 .. (end); will stop at (end)

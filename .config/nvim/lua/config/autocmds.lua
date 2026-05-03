@@ -1,0 +1,14 @@
+-- Autocmds are automatically loaded on the VeryLazy event
+-- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
+-- Add any additional autocmds here
+--vim.api.nvim_create_autocmd("TermOpen", {
+--  pattern = "*",
+--  callback = function()
+--    vim.defer_fn(function()
+--      -- Convert <Del> into the correct terminal keycode
+--      local del_key = vim.api.nvim_replace_termcodes("<Del>", true, false, true)
+--      vim.api.nvim_feedkeys("1", "t", false)
+--    end, 100)
+--  end,
+--})
+--
