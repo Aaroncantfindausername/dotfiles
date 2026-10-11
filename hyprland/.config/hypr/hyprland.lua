@@ -1,5 +1,5 @@
-hl.monitor({ output = "", mode = "2560x1600@240", position = "auto", scale = 1.666 })
-
+hl.monitor({ output = "DP-1", mode = "2560x1600@240", position = "auto", scale = 1.666 })
+hl.monitor({ output = "DP-2", position = "auto", mode = "highres", scale = 1.2 })
 local terminal = "kitty"
 local fileManager = "nautilus"
 local menu = "rofi -show drun"
@@ -15,14 +15,16 @@ end)
 -- ENVIRONMENT VARIABLES
 
 hl.env("GDK_SCALE", "2")
+hl.env("GDK_BACKEND", "wayland,x11,*")
+hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 hl.env("ANKI_WAYLAND", "1")
 hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("XCURSOR_SIZE", "24")
 hl.env("SUDO_EDITOR", "/usr/bin/nvim")
-hl.env("QT_QPA_PLATFORM", "wayland")
-hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 hl.env("HISTSIZE", "30000")
+hl.env("SDL_VIDEODRIVER", "wayland")
+hl.env("CLUTTER_BACKEND", "wayland")
 hl.env("HISTFILESIZE", "30000")
 
 hl.config({

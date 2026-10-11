@@ -14,6 +14,7 @@ alias cdd='cd ~/Files/Uni/Courses/'
 alias 60_rrate='hyprctl keyword monitor ,2560x1600@60,auto,1.666'
 alias 240_rrate='hyprctl keyword monitor ,2560x1600@240,auto,1.666'
 alias open='xdg-open'
+alias movelast='mv -- "$HOME/Downloads/$(ls -t "$HOME/Downloads" | head -n 1)" .'
 if [[ ${EUID} == 0 ]]; then
   PS1='\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
 else
