@@ -1,5 +1,6 @@
+clear Lock
 keycode   9 = Escape NoSymbol 
-keycode  20 = minus underscore 
+keycode  20 = bracketright braceright
 keycode  21 = equal plus 
 keycode  22 = BackSpace BackSpace 
 keycode  23 = Tab ISO_Left_Tab 
@@ -39,3 +40,4 @@ keycode  58 = y Y
 keycode  59 = apostrophe quotedbl 
 keycode  60 = slash question 
 keycode  61 = period greater 
+keycode  66 = Escape
