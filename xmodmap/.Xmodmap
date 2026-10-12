@@ -1,7 +1,9 @@
 clear Lock
 keycode   9 = Escape NoSymbol 
-keycode  20 = bracketleft braceleft 
-keycode  21 = bracketright braceright 
+keycode  18 = 9 parenright
+keycode  19 = 0 parenleft
+keycode  20 = bracketright braceright 
+keycode  21 = bracketleft braceleft 
 keycode  22 = BackSpace BackSpace 
 keycode  23 = Tab ISO_Left_Tab 
 keycode  24 = b B 
