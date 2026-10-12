@@ -1,7 +1,7 @@
 clear Lock
 keycode   9 = Escape NoSymbol 
-keycode  20 = bracketright braceright
-keycode  21 = equal plus 
+keycode  20 = bracketleft braceleft 
+keycode  21 = bracketright braceright 
 keycode  22 = BackSpace BackSpace 
 keycode  23 = Tab ISO_Left_Tab 
 keycode  24 = b B 
@@ -15,7 +15,7 @@ keycode  31 = o O
 keycode  32 = u U 
 keycode  33 = comma less 
 keycode  34 = semicolon colon 
-keycode  35 = bracketright braceright 
+keycode  35 = equal plus
 keycode  38 = n N 
 keycode  39 = r R 
 keycode  40 = t T 
